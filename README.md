@@ -202,3 +202,4 @@ def calculate_curv_and_pos(warped,left_fit,right_fit):
     cen_pos = ((warped.shape[1] * lane_xm_per_pix)/2.)
     distance_from_center = cen_pos - veh_pos
     return curvature,distance_from_center
+具体展示可以参照知乎：https://zhuanlan.zhihu.com/p/57405038
